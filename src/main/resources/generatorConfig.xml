@@ -33,8 +33,8 @@
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 
-        <table schema="waimai" tableName="user" domainObjectName="User" ></table>
-        <table schema="waimai" tableName="address" domainObjectName="Address" ></table>
+        <table tableName="user" domainObjectName="User" ></table>
+        <table tableName="address" domainObjectName="Address" ></table>
 
     </context>
 </generatorConfiguration>
